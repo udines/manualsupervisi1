@@ -30,7 +30,7 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
             @Override
             public void onClick(View view) {
                 if (clickListener != null) {
-                    clickListener.onClick(model.getId());
+                    clickListener.onClick(model);
                 }
             }
         });

@@ -6,16 +6,26 @@ package com.civileng.manualsupervisi;
 
 public class ListModel {
     private String id;
+    private String tipe;
     private String title;
     private String subtitle;
 
     public ListModel() {
     }
 
-    public ListModel(String id, String title, String subtitle) {
+    public ListModel(String id, String tipe, String title, String subtitle) {
         this.id = id;
+        this.tipe = tipe;
         this.title = title;
         this.subtitle = subtitle;
+    }
+
+    public String getTipe() {
+        return tipe;
+    }
+
+    public void setTipe(String tipe) {
+        this.tipe = tipe;
     }
 
     public String getId() {

@@ -4,6 +4,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,6 +14,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -36,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     private TextView divisi;
     private RecyclerView recyclerView;
     private TextView textHtml;
+    private String prevTipe, prevDiv, prevId;
+    private String nextTipe, nextDiv, nextId;
+    private FrameLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        layout = (FrameLayout)findViewById(R.id.main_content);
+
         ImageButton homeButton = (ImageButton)findViewById(R.id.main_home);
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,50 +72,59 @@ public class MainActivity extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                divisi.setVisibility(View.VISIBLE);
-                recyclerView.setVisibility(View.VISIBLE);
-                textHtml.setVisibility(View.GONE);
+//                updateUI(prevTipe, prevDiv, prevId);
+                onBackPressed();
             }
         });
 
-        divisi = (TextView)findViewById(R.id.main_divisi);
-        recyclerView = (RecyclerView)findViewById(R.id.main_recyclerview);
-        recyclerView.setNestedScrollingEnabled(false);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        textHtml = (TextView)findViewById(R.id.main_html);
-        textHtml.setVisibility(View.GONE);
+//        divisi = (TextView)findViewById(R.id.main_divisi);
+//        recyclerView = (RecyclerView)findViewById(R.id.main_recyclerview);
+//        recyclerView.setNestedScrollingEnabled(false);
+//        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+//        textHtml = (TextView)findViewById(R.id.main_html);
+//        textHtml.setVisibility(View.GONE);
 
+//        populateList("list");
+//        updateUI("list", "Panduan Penanganan\nnRehabilitasi dan Rekonstruksi", "main");
+        ListModel model = new ListModel("main", "list", "Panduan Penanganan\nRehabilitasi dan Rekonstruksi", "");
+        updateUI(model);
 
-        DatabaseReference listRef = FirebaseDatabase.getInstance().getReference().child("list");
-        listRef.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                ArrayList<ListModel> arrayList = new ArrayList<ListModel>();
-                for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()) {
-                    ListModel listModel = dataSnapshot1.getValue(ListModel.class);
-                    arrayList.add(listModel);
-                }
-                Adapter adapter = new Adapter(arrayList, getLayoutInflater(), new ListClickListener() {
-                    @Override
-                    public void onClick(String id) {
-                        if (id.equals("pengantar")) {
-                            divisi.setVisibility(View.GONE);
-                            recyclerView.setVisibility(View.GONE);
-                            textHtml.setText(Html.fromHtml(getString(R.string.pengantar_html)));
-                            textHtml.setVisibility(View.VISIBLE);
-                        }
-                    }
-                });
-                recyclerView.setAdapter(adapter);
-            }
+        /*DatabaseReference listRef = FirebaseDatabase.getInstance().getReference().child("list_menu").child("10C");
+        ListModel listModel;
+        listModel = new ListModel("10C1", "10.1. Biaya inisial", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("10C2", "10.2. Ekivalen biaya tahunan seragam (EUAC)", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("10C3", "10.3. EUAC per meter persegi perkerasan", "");
+        listRef.push().setValue(listModel);*/
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
+        /*listModel = new ListModel("7C1", "7.1. Kondisi umum", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("7C2", "7.2. Analisis variasi nilai indeks kerusakan atau indeks kondisi", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("7C3", "7.3. Evaluasi jenis dan tingkat kerusakan", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("7C4", "7.4. Evaluasi kapasitas struktural perkerasan", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("7C5", "7.5. Pengecekan penanganan sebelumnya", "");
+        listRef.push().setValue(listModel);*/
 
-            }
-        });
-        /*ListModel listModel;
-        listModel = new ListModel("pengantar", "Pengantar", "");
+        /*listModel = new ListModel("6C1", "6.1. Sejarah konstruksi dan pemeliharaan jalan", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("6C2", "6.2. Pembebanan lalu lintas", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("6C3", "6.3. Kondisi kerusakan perkerasan", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("6C4", "6.4. Drainase", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("6C5", "6.5. Pengujian non-destruktif", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("6C6", "6.6. Pengujian destruktif", "");
+        listRef.push().setValue(listModel);
+        listModel = new ListModel("6C7", "6.7. Ketidakrataan dan tahanan gelincir", "");
+        listRef.push().setValue(listModel);*/
+
+        /*listModel = new ListModel("pengantar", "Pengantar", "");
         listRef.push().setValue(listModel);
         listModel = new ListModel("1", "1. Ruang Lingkup", "");
         listRef.push().setValue(listModel);
@@ -149,6 +165,67 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void updateUI(ListModel listModel) {
+        ContentFragment fragment = new ContentFragment();
+        fragment.setListModel(listModel);
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.main_content, fragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+    }
+
+    /*private void updateUI(String tipe, String div, String id) {
+        switch (tipe) {
+            case "list" :
+                textHtml.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.VISIBLE);
+                divisi.setVisibility(View.VISIBLE);
+                divisi.setText(div);
+                populateList(id);
+                break;
+            case "page" :
+                divisi.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.GONE);
+                textHtml.setVisibility(View.VISIBLE);
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void populateList(String id) {
+        DatabaseReference listRef = FirebaseDatabase.getInstance().getReference().child("list_menu").child(id);
+        listRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                ArrayList<ListModel> arrayList = new ArrayList<ListModel>();
+                for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()) {
+                    ListModel listModel = dataSnapshot1.getValue(ListModel.class);
+                    arrayList.add(listModel);
+                }
+                Adapter adapter = new Adapter(arrayList, getLayoutInflater(), new ListClickListener() {
+                    @Override
+                    public void onClick(ListModel model) {
+                        if (model.getId().equals("pengantar")) {
+                            divisi.setVisibility(View.GONE);
+                            recyclerView.setVisibility(View.GONE);
+                            textHtml.setText(Html.fromHtml(getString(R.string.pengantar_html)));
+                            textHtml.setVisibility(View.VISIBLE);
+                        } else {
+                            updateUI(model.getTipe(), model.getTitle(), model.getId());
+                        }
+                    }
+                });
+                recyclerView.setAdapter(adapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
     private class Adapter extends RecyclerView.Adapter<ListViewHolder> {
 
         private ArrayList<ListModel> arrayList;
@@ -176,5 +253,5 @@ public class MainActivity extends AppCompatActivity {
         public int getItemCount() {
             return arrayList.size();
         }
-    }
+    }*/
 }

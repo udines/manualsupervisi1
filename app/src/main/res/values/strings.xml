@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">Panduan Rehabilitasi Rekonstruksi</string>
     <string name="title_activity_detail">Panduan Rehabilitasi Rekonstruksi</string>
-    <string name="pengantar_html">
+    <string name="pengantar">
     <![CDATA[
     <h2>Pengantar</h2>
     <p>Panduan Penanganan Rehabilitasi dan Rekonstruksi Jalan pada Manajemen Tingkat Proyek (Panduan ini) ditulis sebagai suplemen dari Manual Perkerasan Jalan Nomor 04/SE/Db/2017 (selanjutnya disebut sebagai MPJ 2017) Bagian II: Rehabilitasi Perkerasan (pelapisan struktural, pengerikilan kembali, daur ulang, dan rekonstruksi). Panduan ini disusun dengan tujuan memberikan suatu prosedur evaluasi dan sejumlah alternatif strategi untuk melakukan penanganan rehabilitasi (termasuk rekonstruksi) yang efektif pada berbagai jenis perkerasan jalan yang telah dibangun.</p>
@@ -18,5 +18,26 @@
     </p>
 
     ]]>
+    </string>
+    <string name="p1">
+
+    </string>
+    <string name="p2">
+
+    </string>
+    <string name="p3">
+
+    </string>
+    <string name="p4">
+
+    </string>
+    <string name="p5">
+
+    </string>
+    <string name="p9">
+
+    </string>
+    <string name="p11">
+
     </string>
 </resources>

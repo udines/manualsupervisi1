@@ -5,5 +5,5 @@ package com.civileng.manualsupervisi;
  */
 
 public interface ListClickListener {
-    public void onClick(String id);
+    public void onClick(ListModel listModel);
 }
