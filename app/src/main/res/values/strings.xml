@@ -16,28 +16,67 @@
     (4)	<b>Tahap 4: </b> melakukan disain teknis teknologi rehabilitasi/rekonstruksi jalan.<br>
     (5)	<b>Tahap 5: </b> menganalisis nilai ekonomi dari tiap-tiap alternatif disain teknis dan memberikan rekomendasi usulan teknologi dan indikasi penanganan rehabilitasi/rekonstruksi.
     </p>
+    <p>Panduan ini merupakan panduan baru yang diharapkan dapat menjadi acuan dalam pemilihan teknologi rehabilitasi dan rekonstruksi perkerasan jalan.</p>
 
     ]]>
     </string>
     <string name="p1">
+    <![CDATA[
+    <h2>1. Ruang Lingkup</h2>
+    <p>Sesuai dengan tujuan penulisan Panduan dan konsisten dengan Manual Penangnan Jalan (MPJ) 2017, istilah penanganan rehabilitasi dalam Panduan ini diartikan sebagai segala aktivitas yang diupayakan untuk memperbaiki kondisi fungsional maupun struktural suatu perkerasan jalan, baik yang menyasar pada sebagian ataupun seluruh bagian dari struktur perkerasan yang ada. Sementara itu, rekonstruksi diartikan sebagai penanganan segmen jalan dengan kerusakan yang berakar atau telah mencapai lapis pondasi ataupun tanah dasar (subgrade) jalan sedemikian rupa sehingga memerlukan penggantian struktur perkerasan lama dengan struktur perkerasan yang sama sekali baru. Penanganan rehabilitasi sendiri dalam prakteknya dibagi menjadi 2 (dua) kelompok, yaitu rehabilitasi minor dan rehabilitasi mayor.</p>
+    <p>Panduan ini merupakan suplemen dari Bagian II MPJ 2017, dengan penajaman pada aspek asesmen struktur perkerasan yang ada (existing) dan pengembangan alternatif strategi rehabilitasi. MPJ 2017 Bagian I tetap menjadi acuan utama dalam disain perkerasan baru, termasuk perkerasan pada proyek pelebaran jalan lama, atau dalam hal hasil evaluasi merekomendasikan agar perkerasan ditangani secara rekonstruksi.p>
+    <p>Panduan ini ditujukan untuk digunakan oleh para perencana disain rehabilitasi jalan yang telah terlatih dan cukup berpengalaman untuk:<br>
+    a.	bekerja di dalam batasan-batasan kebijakan, norma, standar, pedoman, dan kriteria-kriteria (NSPK) yang dikeluarkan oleh Direktorat Jenderal Bina Marga,<br>
+    b.	menyadari dan menerapkan manajemen resiko dan adanya batasan anggaran dalam preservasi aset jalan secara keseluruhan maupun pada tiap-tiap komponennya,<br>
+    c.	mempertimbangkan unsur-unsur yang spesifik terkait kondisi daerah setempat ataupun kondisi spesifik suatu proyek, dan<br>
+    d.	mengoptimalkan disain awal dan penanganan jalan yang telah digunakan untuk menyesuaikan dengan keterbatasan anggaran serta biaya sepanjang umur rencana.<br>
+    </p>
+    <p>Panduan ini memberikan petunjuk untuk melakukan investigasi rehabilitasi pada skala proyek, yang meliputi:<br>
+    a.	mengumpulkan dan menginterpretasi data kondisi perkerasan,<br>
+    b.	mengevaluasi perkerasan jalan yang ada, dan<br>
+    c.	mengembangkan usulan penanganan rehabilitasi bilamana diperlukan.<br>
+    </p>
+    <p>Panduan ini ditujukan untuk digunakan oleh para perencana disain rehabilitasi jalan yang telah terlatih dan cukup berpengalaman untuk:<br>
+    a.	mengembangkan dan mendisain alternatif penanganan rehabiiltasi perkerasan,<br>
+    b.	memperhitungkan biaya sepanjang siklus masa layanan (life-cycle costs),<br>
+    c.	mengevaluasi seluruh alternatif strategi, serta<br>
+    d.	memberikan rekomendasi untuk mengidentifikasi opsi-opsi yang dipandang paling berdayaguna dan bagaimana implementasinya.<br>
+    </p>
 
+    ]]>
     </string>
     <string name="p2">
+        <![CDATA[
 
+        ]]>
     </string>
     <string name="p3">
+        <![CDATA[
+
+        ]]>
 
     </string>
     <string name="p4">
+        <![CDATA[
+
+        ]]>
 
     </string>
     <string name="p5">
+        <![CDATA[
+
+        ]]>
 
     </string>
     <string name="p9">
+        <![CDATA[
+
+        ]]>
 
     </string>
     <string name="p11">
+        <![CDATA[
 
+        ]]>
     </string>
 </resources>
