@@ -47,17 +47,46 @@
     </string>
     <string name="p2">
         <![CDATA[
-
+            <h2>2. Acuan Normatif</h2>
+            <p>
+            a.	Undang-Undang RI No. 38 tahun 2004 tentang Jalan<br>
+            b.	Peraturan Pemerintah RI No. 34 tahun 2006 tentang Jalan<br>
+            c.	Manual Desain Perkerasan Jalan No 02/M/BM/2013<br>
+            d.	Manual Perkerasan Jalan No. 04/SE/Db/2017<br>
+            e.	Pd T-01-2002-B Pedoman Perencanaan Tebal Perkerasan Lentur<br>
+            f.	Pd T-14-2003 Perencanaan Tebal Perkerasan Jalan Beton Semen <br>
+            g.	Pd T-05-2005 Perencanaan Tebal Lapis Tambah Perkerasan Lentur dengan Metode Lendutan<br>
+            h.	Austroads, Pavement Design, A Guide to the Structural Design of Pavements, 2008 <br>
+            i.	AASHTO Guide for Design of Pavement Structure, 1993<br>
+            </p>
         ]]>
     </string>
     <string name="p3">
         <![CDATA[
+            <h2>3. Istilah dan Definisi</h2>
+            <p>a)	Jalan adalah prasarana transportasi darat yang meliputi segala bagian jalan, termasuk bangunan pelengkap dan perlengkapannya yang diperuntukkan bagi lalulintas, yang berada pada permukaan tanah, di atas permukaan tanah, di bawah permukaan tanah dan/atau air, serta di atas permukaan air, kecuali jalan kereta api, jalan lori, dan jalan kabel.</p>
+            <p>b)	Pemeliharaan jalan adalah kegiatan penanganan jalan, berupa pencegahan, perawatan dan perbaikan yang diperlukan untuk mempertahankan kondisi jalan agar tetap berfungsi secara optimal melayani lalu lintas sehingga umur rencana yang ditetapkan dapat tercapai.</p>
+            <p>c)	Pemeliharaan berkala jalan adalah kegiatan penanganan pencegahan terjadinya kerusakan yang lebih luas dan setiap kerusakan yang diperhitungkan dalam desain agar penurunan kondisi jalan dapat dikembalikan pada kondisi kemantapan sesuai dengan rencana.</p>
+            <p>d)	Rehabilitasi jalan adalah kegiatan penanganan pencegahan terjadinya kerusakan yang luas dan setiap kerusakan yang tidak diperhitungkan dalam desain, yang berakibat menurunnya kondisi kemantapan pada bagian/tempat tertentu dari suatu ruas jalan dengan kondisi rusak ringan, agar penurunan kondisi kemantapan tersebut dapat dikembalikan pada kondisi kemantapan sesuai dengan rencana.</p>
+            <p>e)	Rekonstruksi adalah peningkatan struktur yang merupakan kegiatan penanganan untuk dapat meningkatkan kemampuan bagian ruas jalan yang dalam kondisi rusak berat agar bagian jalan tersebut mempunyai kondisi mantap kembali sesuai dengan umur rencana yang ditetapkan.</p>
+            <p>f)	Perkerasan berpenutup adalah perkerasan permukaan dengan bahan perekat sebagai pengikat agregat baik bersifat struktur maupun nonstruktur, misalnya perkerasan aspal (flexible pavement), dan perkerasan beton (rigid pavement)</p>
+            <p>g)	Perkerasan aspal (flexible pavement) adalah perkerasan yang menggunakan bahan campuran beraspal sebagai lapis permukaan serta bahan berbutir sebagai lapisan di bawahnya.</p>
+            <p>h)	Perkerasan beton (rigid pavement) adalah jenis perkerasan jalan yang menggunakan beton sebgai bahan utama perkerasan, yang  berupa plat beton dengan atau tanpa tulangan di atas tanah dasar dengan atau tanpa pondasi bawah.</p>
+            <p>i)	Teknologi penanganan perkerasan jalan adalah suatu teknik penanganan perkerasan jalan yang menggunakan teknologi material, peralatan, dan metode tertentu yang bersifat konvensional dan/atau bersifat modern.</p>
 
         ]]>
 
     </string>
     <string name="p4">
         <![CDATA[
+            <h2>4. Ketentuan Umum</h2>
+            <p>Sebagaimana ditekankan di dalam MPJ 2017, disain penanganan yang baik, termasuk disain perkerasan dalam penanganan rehabilitasi dan rekonstruksi, harus memenuhi kriteria-kriteria dasar berikut. </p>
+            <p>a.	Menjamin tercapainya tingkat layanan jalan sepanjang umur rencana perkerasan. </p>
+            <p>b.	Merupakan life-cycle costs yang minimum.</p>
+            <p>c.	Mempertimbangkan kemudahan saat pelaksanaan dan pemeliharaan.</p>
+            <p>d.	Menggunakan material yang efisien dan memanfaatkan material lokal semaksimal mungkin.</p>
+            <p>e.	Mempertimbangkan faktor keselamatan pengguna jalan. </p>
+            <p>f.	Mempertimbangkan kelestarian lingkungan.</p>
 
         ]]>
 
@@ -76,7 +105,57 @@
     </string>
     <string name="p11">
         <![CDATA[
+            <h2>11. Pengusulan Strategi Penanganan</h2>
+            <p>Untuk mengusulkan strategi penanganan yang definitif, tiap-tiap alternatif penanganan perlu dianalisis secara ekonomi untuk mendapatkan perbandingan tingkat efektivitasnya dari sudut pandang kebutuhan biaya. Analisis ekonomi dilakukan berdasarkan konsep life-cycle cost berdasarkan Bagian 9 dari panduan ini.</p>
+            <p>Selain kriteria ekonomi (efektivitas biaya), kriteria-kriteria lain yang bersifat non-moneter dapat dipertimbangkan sesuai dengan tingkat kepentingannya pada. Contoh kriteria non-moneter misalnya:<br>
+            a.	Waktu pengerjaan, berkaitan dengan lamanya waktu penutupan jalan dari lalu lintas.<br>
+            b.	Umur rencana jalan yang diharapkan dari strategi penanganan.<br>
+            c.	Kemudahan pemeliharaan dan perbaikan.<br>
+            d.	Pengaturan lalu lintas.<br>
+            e.	Efektivitas penanganan, terutama apabila terdapat unsur teknologi baru yang digunakan<br>
+            </p>
+        ]]>
+    </string>
+    <string name="L1">
+        <![CDATA[
 
         ]]>
+
+    </string>
+    <string name="L2">
+        <![CDATA[
+
+        ]]>
+
+    </string>
+    <string name="L3">
+        <![CDATA[
+
+        ]]>
+
+    </string>
+    <string name="L4">
+        <![CDATA[
+
+        ]]>
+
+    </string>
+    <string name="L5">
+        <![CDATA[
+
+        ]]>
+
+    </string>
+    <string name="L6">
+        <![CDATA[
+
+        ]]>
+
+    </string>
+    <string name="L7">
+        <![CDATA[
+
+        ]]>
+
     </string>
 </resources>
