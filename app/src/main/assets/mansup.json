@@ -1,0 +1,228 @@
+{
+  "10C" : [
+    {
+      "id" : "p10C1",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "10.1. Biaya inisial"
+    },
+    {
+      "id" : "p10C2",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "10.2. Ekivalen biaya tahunan seragam (EUAC)"
+    },
+    {
+      "id" : "p10C3",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "10.3. EUAC per meter persegi perkerasan"
+    }
+  ],
+  "6C" : [
+    {
+      "id" : "p6C1",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.1. Sejarah konstruksi dan pemeliharaan jalan"
+    },
+    {
+      "id" : "p6C2",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.2. Pembebanan lalu lintas"
+    },
+    {
+      "id" : "p6C3",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.3. Kondisi kerusakan perkerasan"
+    },
+    {
+      "id" : "p6C4",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.4. Drainase"
+    },
+    {
+      "id" : "p6C5",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.5. Pengujian non-destruktif"
+    },
+    {
+      "id" : "p6C6",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.6. Pengujian destruktif"
+    },
+    {
+      "id" : "p6C7",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "6.7. Ketidakrataan dan tahanan gelincir"
+    }
+  ],
+  "7C" : [
+    {
+      "id" : "p7C1",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "7.1. Kondisi umum"
+    },
+    {
+      "id" : "p7C2",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "7.2. Analisis variasi nilai indeks kerusakan atau indeks kondisi"
+    },
+    {
+      "id" : "p7C3",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "7.3. Evaluasi jenis dan tingkat kerusakan"
+    },
+    {
+      "id" : "p7C4",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "7.4. Evaluasi kapasitas struktural perkerasan"
+    },
+    {
+      "id" : "p7C5",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "7.5. Pengecekan penanganan sebelumnya"
+    }
+  ],
+  "8C" : [
+    {
+      "id" : "p8C1",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "8.1. Pemilihan strategi atau teknologi penanganan perkerasan aspal"
+    },
+    {
+      "id" : "p8C2",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "8.2. Pemilihan strategi atau teknologi penanganan perkerasan beton"
+    }
+  ],
+  "main" : [
+    {
+      "id" : "pengantar",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Pengantar"
+    },
+    {
+      "id" : "p1",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "1. Ruang Lingkup"
+    },
+    {
+      "id" : "p2",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "2. Acuan Normatif"
+    },
+    {
+      "id" : "p3",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "3. Istilah dan Definisi"
+    },
+    {
+      "id" : "p4",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "4. Ketentuan Umum"
+    },
+    {
+      "id" : "p5",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "5. Pendekatan Penanganan Rehabilitasi dan Rekonstruksi"
+    },
+    {
+      "id" : "6C",
+      "subtitle" : "",
+      "tipe" : "list",
+      "title" : "6. Kebutuhan Data"
+    },
+    {
+      "id" : "7C",
+      "subtitle" : "",
+      "tipe" : "list",
+      "title" : "7. Evaluasi Kondisi Perkerasan"
+    },
+    {
+      "id" : "8C",
+      "subtitle" : "",
+      "tipe" : "list",
+      "title" : "8. Pengembangan Alternatif Strategi Penanganan"
+    },
+    {
+      "id" : "p9",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "9. Desain Teknis"
+    },
+    {
+      "id" : "10C",
+      "subtitle" : "",
+      "tipe" : "list",
+      "title" : "10. Analisis Biaya Siklus Hidup"
+    },
+    {
+      "id" : "p11",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "11. Pengusulan Strategi Penanganan"
+    },
+    {
+      "id" : "L1",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 1"
+    },
+    {
+      "id" : "L2",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 2"
+    },
+    {
+      "id" : "L3",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 3"
+    },
+    {
+      "id" : "L4",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 4"
+    },
+    {
+      "id" : "L5",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 5"
+    },
+    {
+      "id" : "L6",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 6"
+    },
+    {
+      "id" : "L7",
+      "subtitle" : "",
+      "tipe" : "page",
+      "title" : "Lampiran 7"
+    }
+  ]
+}

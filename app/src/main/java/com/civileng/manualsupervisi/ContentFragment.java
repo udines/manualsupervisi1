@@ -18,6 +18,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 /**
@@ -67,7 +73,7 @@ public class ContentFragment extends Fragment {
     }
 
     private void populateList(String id) {
-        DatabaseReference listRef = FirebaseDatabase.getInstance().getReference().child("list_menu").child(id);
+        /*DatabaseReference listRef = FirebaseDatabase.getInstance().getReference().child("list_menu").child(id);
         listRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -89,6 +95,56 @@ public class ContentFragment extends Fragment {
             public void onCancelled(DatabaseError databaseError) {
 
             }
+        });*/
+
+        Adapter adapter = new Adapter(getListMenu(id), getLayoutInflater(), new ListClickListener() {
+            @Override
+            public void onClick(ListModel listModel) {
+                ((MainActivity)getActivity()).updateUI(listModel);
+            }
         });
+        recyclerView.setAdapter(adapter);
+    }
+
+    private String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getActivity().getAssets().open("mansup.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
+
+    private ArrayList<ListModel> getListMenu(String menuName) {
+        ArrayList<ListModel> list = new ArrayList<>();
+        try {
+            JSONObject obj = new JSONObject(loadJSONFromAsset());
+            JSONArray m_jArry = obj.getJSONArray(menuName);
+
+            for (int i = 0; i < m_jArry.length(); i++) {
+                JSONObject jo_inside = m_jArry.getJSONObject(i);
+                String id = jo_inside.getString("id");
+                String title = jo_inside.getString("title");
+                String subtitle = jo_inside.getString("subtitle");
+                String tipe = jo_inside.getString("tipe");
+
+                //Add your values in your `ArrayList` as below:
+
+                ListModel listModel = new ListModel(id, tipe, title, subtitle);
+
+                list.add(listModel);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+            return null;
+        }
+        return list;
     }
 }
