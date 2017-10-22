@@ -93,7 +93,20 @@
     </string>
     <string name="p5">
         <![CDATA[
-
+            <h2>5. Pendekatan Penanganan Rehabilitasi dan Rekonstruksi</h2>
+            <p>Perencanaan dan disain penanganan rehabilitasi dan rekonstruksi jalan dilakukan dalam 5 (lima) tahapan sebagaimana digambarkan dalam Gambar 1.</p>
+            <ul>
+                <li><p>a.	<b>Tahap 1:</b> menentukan unit analisis penanganan jalan. Sebuah unit analisis merupakan satu segmen panjang jalan yang diisolasi karena dipandang memiliki keseragaman faktor-faktor yang berpotensi mempengaruhi kinerja struktur perkerasan jalan. Faktor-faktor yang digunakan untuk melakukan delineasi meliputi: (1) kesamaan jenis perkerasan, (2) kesamaan sejarah pembangunan dan penanganan, (3) kesamaan jenis tanah dasar, (4) kesamaan potongan melintang badan jalan: tipe material dan ketebalan tiap-tap lapisan; dan (5) kesamaan kelas pembebanan lalu lintas.</p></li>
+                <li><p>b.	<b>Tahap 2:</b> mengevaluasi kondisi perkerasan jalan. Evaluasi atas kondisi perkerasan pada suatu unit analisis jalan dilakukan dengan tujuan untuk mendiagnosis faktor-faktor penyebab dan mekanisme terjadinya kerusakan pada perkerasan. Hal ini penting untuk diketahui agar strategi perbaikan dan pencegahan yang tepat sasaran dapat ditentukan.</p></li>
+                <li><p>c.	<b>Tahap 3:</b> pemilihan alternatif strategi penanganan. Alternatif strategi penanganan rehabilitasi atau rekonstruksi untuk suatu kondisi kerusakan perkerasan dalam satu unit analisis dipilih dengan prinsip-prinsip:<br>
+                    (1)	memperbaiki kondisi kerusakan serta mencegah agar mekanisme yang menyebabkan terjadinya kerusakan tersebut tidak berulang lagi,<br>
+                    (2)	menjamin tercapainya umur rencana yang diperaharui, serta <br>
+                    (3)	mengutamakan teknologi yang lebih murah dan efektif (<i>cost-effective</i>) secara pembiayaan sepanjang perkerasan masih memiliki kapasitas struktural yang memadai untuk mencapai umur rencana tanpa memerlukan penambahan kekuatan struktural.<br>
+                    </p>
+                </li>
+                <li><p>d.	<b>Tahap 4:</b> melakukan disain teknis teknologi rehabilitasi/rekonstruksi jalan untuk setiap alternatif strategi penanganan yang dipilih.</p></li>
+                <li><p>e.	<b>Tahap 5:</b> menganalisis nilai ekonomi dari tiap-tiap alternatif disain teknis dan memberikan rekomendasi usulan teknologi dan indikasi penanganan rehabilitasi/rekonstruksi. Analisis nilai ekonomi dilakukan dengan pendekatan biaya siklus hidup (<i>life cycle costs</i>) yang dibutuhkan hingga akhir umur rencana suatu alternatif disain. Rekomendasi dibuat berdasarkan hasil analisis ekonomi ataupun hasil analisis multi-kriteria yang mempertimbangkan faktor-faktor lain selain faktor biaya.</p></li>
+            </ul>
         ]]>
 
     </string>
@@ -157,5 +170,69 @@
 
         ]]>
 
+    </string>
+    <string name="p6">
+        <![CDATA[
+            <h2>6. Kebutuhan Data</h2>
+            <p>Data yang dibutuhkan untuk melakukan evaluasi kondisi perkerasan dan mengembangkan alternatif strategi penanganan rehabilitasi dan rekonstruksi jalan meliputi: sejarah konstruksi dan pemeliharaan jalan, pembebanan lalu lintas, indeks kondisi perkerasan, drainase, serta kelompok data yang diperoleh melalui uji non-destruktif maupun uji destruktif.</p>
+            <h3>6.1.	Sejarah konstruksi dan pemeliharaan jalan</h3>
+            <p>Pengetahuan tentang sejarah konstruksi dan pemeliharaan jalan penting untuk mengembangkan alternatif penanganan agar tepat sasaran sesuai dengan kondisi spesifik segmen jalan yang ditangani. Paling tidak, data sejarah konstruksi dan pemeliharaan jalan yang perlu dikumpulkan meliputi:<br>
+            a.	Jenis struktur lapis-lapis perkerasan dan waktu pembangunan konstruksi awal<br>
+            b.	Ketebalan awal lapis-lapis struktur perkerasan serta tanggal dan tebal lapis ulang pasca konstruksi<br>
+            c.	Sejarah penanganan pemeliharaan, termasuk penanganan pemeliharaan rutin/kondisi/preventif, seperti joint sealing, crack sealing, surface treatment, serta patching<br>
+            d.	Sifat-sifat fisik material lapis perkerasan jalan (subgrade, lapis berbutir, dan lapis berbahan ikat) yang digunakan pada tiap fase konstruksi.<br>
+            </p>
+            <h3>6.2.	Pembebanan lalu lintas</h3>
+            <p>Data pembebanan lalu lintas meliputi data pembebanan yang telah lalu maupun proyeksi lalu lintas masa mendatang hingga berakhirnya umur rencana. Data beban lalulintas yang akurat penting untuk mengevaluasi kerusakan dan menentukan disain rehabilitasi yang efektif dengan mempertimbangkan lalu lintas mendatang. Data lalu lintas dikumpulkan dalam bentuk:<br>
+            a.	LHR 2-arah atau LHRT 2-arah<br>
+            b.	Kumulatif Beban Sumbu Standar (CESA) sepanjang umur rencana<br>
+            c.	Beban Sumbu Standar (ESA) hingga tahun analisis<br>
+            </p>
+            <h3>6.3.	Kondisi kerusakan perkerasan</h3>
+            <p>Kondisi kerusakan perkerasan jalan dapat digambarkan dengan angka pengurang (deduct value) terhadap indeks kondisi seperti pada metode Pavement Condition Index (PCI), ataupun sebagai indeks kerusakan permukaan sebagaimana pada metode Surface Distress Index (SDI). Informasi minimum yang perlu diperoleh berkaitan dengan kondisi kerusakan perkerasan adalah:<br>
+            a.	Jenis kerusakan, yaitu identifikasi tipe kerusakan fisik pada perkerasan, seperti retak dan jenis-jenisnya, alur, deformasi, dan sebagainya<br>
+            b.	Tingkat keparahan tiap jenis kerusakan untuk menilai derajat kerusakan pada tiap jenis kerusakan yang teramati<br>
+            c.	Sebaran kerusakan, yaitu luas permukaan tiap jenis kerusakan relatif terhadap luas total unit analisis perkerasan yang ditinjau<br>
+            </p>
+            <p>Hasil survei kondisi perkerasan akan digunakan di dalam analisis detail segmen jalan. Oleh karena itu, nilai indeks kondisi/kerusakan pada tiap segmen jalan, jenis-jenis kerusakan yang terjadi, tingkat keparahannya, serta luasan kerusakan perlu didata seakurat mungkin.</p>
+            <h3>6.4.	Drainase</h3>
+            <p>Kondisi struktur drainase dan kemampuan struktur perkerasan untuk mengalirkan air harus diselidiki bersamaan dengan survei detail kerusakan permukaan. Secara spesifik, hal-hal berikut ini perlu diperhatikan:<br>
+            a.	Apakah kapasitas selokan limpasan air permukaan cukup dan mampu mengalirkan air dengan lancar?<br>
+            b.	Apakah lubang-lubang inlet dan culvert bersih dari kotoran/hambatan dan elevasinya tepat?<br>
+            c.	Apakah ada genangan di atas perkerasan?<br>
+            d.	Apakah ada genangan pada saluran drainase?<br>
+            </p>
+            <p>Inspeksi perlu mengecek juga adanya kemungkinan kerusakan perkerasan yang diperburuk oleh naiknya kelembaban.</p>
+            <h3>6.5.	Pengujian non-destruktif</h3>
+            <p>Pengujian non-destruktif (non-destructive test, NDT) utamanya dilakukan untuk menguji defleksi lapis perkerasan. Alat-alat pengujian non-destruktif perkerasan dikelompokkan berdasarkan karakter bebannya, yaitu: beban impuls (misalnya: Falling Weight Deflectometer, FWD), beban stady-state dynamic (misalnya: Dynaflect), dan beban statik (misalnya: Benkelman Beam). Nilai defleksi sebagai hasil NDT dibutuhkan dan diolah untuk mendapatkan:</p>
+            <p>a.	Pada perkeraan aspal:<br>
+            (1)	Modulus elastik tiap-tiap lapis perkerasan. Nilai modulus ini diperlukan dalam analisis kelelahan akibat pembebanan,<br>
+            (2)	Disain ketebalan lapis ulang struktural (structural overlay),<br>
+            (3)	Profil defleksi pada daerah perkerasan yang dilalui dan tidak dilalui lalu lintas. Profil ini digunakan untuk mengidentifikasi daerah-daerah yang mengalami kegagalan ataupun yang memiliki potensi kegagalan. Defleksi yang tinggi pada daerah yang dilalui lalu lintas dibandingkan pada daerah yang tidak dilalui mengindikasikan adanya ketidakcukupan struktural atau potensi kegagalan, dengan asumsi perkerasan tersebut memiliki sejarah konstruksi yang sama.<br>
+            </p>
+            <p>b.	Pada perkerasan beton:<br>
+            (1)	Transfer pembebanan antar sambungan,<br>
+            (2)	Deteksi adanya rongga di bawah slab beton,<br>
+            (3)	Modulus elastik beton dan modulus reaksi subgrade. Modulus ini digunakan bersama dengan transfer pembebanan untuk menentukan tegangan-tegangan kritis dan analisis kelelahan,<br>
+            (4)	Disain ketebalan lapis ulang.<br>
+            </p>
+            <h3>6.6.	Pengujian destruktif</h3>
+            <p>Pengujian destruktif digunakan untuk melengkapi hasil pengujian NDT ataupun menyediakan informasi penting tanpa dilakukannya NDT. Disarankan untuk mengkombinasikan antara pengujian destruktif terbatas dengan pengujian NDT untuk mencapai hasil yang paling akurat. Sebagai suplemen terhadap pengujian NDT, pengujian destruktif berikut perlu dilakukan:<br>
+            a.	Coring untuk menentukan tebal lapis-lapis perkerasan dengan tepat dan mempelajari kerusakan struktural yang tidak dapat diamati secara visual pada lapis permukaan,<br>
+            b.	Klasifikasi tanah subgrade pada beberapa titik yang mewakili kondisi lapangan,<br>
+            c.	Klasifikasi visual terhadap material lapis pondasi dan lapis pondasi bawah berikut kondisinya pada beberapa titik yang representatif,<br>
+            d.	Untuk perkerasan aspal: uji stabilitas Marshall, penetrasi, dan viskositas (serta titik lembek) pada aspal yang telah diekstraksi. Berdasarkan hasil NDT, uji nilai modulus resilien beberapa sampel core dapat dilakukan untuk memverifikasi hasil hitungan balik (back-calculation),<br>
+            e.	Pada perkerasan kaku: uji indirect tensile strengh (ITS) ataupun uji kuat tekan pada beberapa sampel yang representatif.<br>
+            </p>
+            <p>Apabila NDT tidak dapat dilakukan, beberapa pengujian destruktif yang lebih ekstensif perlu dilakukan:<br>
+            a.	Uji California Bearing Ratio (CBR) lapangan terhadap subgrade dan lapis-lapis berbutir pada perkerasan lentur<br>
+            b.	Uji Dynamic Cone Penetromenter (DCP)<br>
+            c.	Uji modulus reaksi subgrade (K) lapangan<br>
+            </p>
+            <p>Uji destruktif juga perlu dilakukan untuk menginvestigasi problem-problem spesifik, seperti retak “D” pada beton aspal dan retak reflektif pada perkerasan aspal.</p>
+            <h3>6.7.	Ketidakrataan (roughness) dan tahanan gelincir (skid resistance)</h3>
+            <p>Data roughness dan skid resistance tidak diperlukan pada evaluasi skala proyek untuk penanganan rehabilitasi mayor maupun rekonstruksi. Namun data ini sangat berharga untuk penanganan pemeliharaan rutin, kondisi, ataupun preventif/berkala, yaitu ketika perkerasan masih berada dalam kondisi baik ataupun sedang dengan sedikit ataupun tanpa kerusakan.</p>
+
+        ]]>
     </string>
 </resources>
