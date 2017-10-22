@@ -1,5 +1,6 @@
 package com.civileng.manualsupervisi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,13 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -51,7 +45,13 @@ public class ContentFragment extends Fragment {
         recyclerView.setNestedScrollingEnabled(false);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        switch (listModel.getTipe()) {
+        textHtml.setVisibility(View.GONE);
+        recyclerView.setVisibility(View.VISIBLE);
+        divisi.setVisibility(View.VISIBLE);
+        divisi.setText(listModel.getTitle());
+        populateList(listModel.getId());
+
+        /*switch (listModel.getTipe()) {
             case "list" :
                 textHtml.setVisibility(View.GONE);
                 recyclerView.setVisibility(View.VISIBLE);
@@ -68,39 +68,22 @@ public class ContentFragment extends Fragment {
                 break;
             default:
                 break;
-        }
+        }*/
         return view;
     }
 
     private void populateList(String id) {
-        /*DatabaseReference listRef = FirebaseDatabase.getInstance().getReference().child("list_menu").child(id);
-        listRef.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                ArrayList<ListModel> arrayList = new ArrayList<ListModel>();
-                for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()) {
-                    ListModel listModel = dataSnapshot1.getValue(ListModel.class);
-                    arrayList.add(listModel);
-                }
-                Adapter adapter = new Adapter(arrayList, getLayoutInflater(), new ListClickListener() {
-                    @Override
-                    public void onClick(ListModel model) {
-                        ((MainActivity)getActivity()).updateUI(model);
-                    }
-                });
-                recyclerView.setAdapter(adapter);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });*/
 
         Adapter adapter = new Adapter(getListMenu(id), getLayoutInflater(), new ListClickListener() {
             @Override
             public void onClick(ListModel listModel) {
-                ((MainActivity)getActivity()).updateUI(listModel);
+                if (listModel.getTipe().equals("page")) {
+                    Intent detailIntent = new Intent(getContext(), DetailActivity.class);
+                    detailIntent.putExtra("id", listModel.getId());
+                    startActivity(detailIntent);
+                } else {
+                    ((MainActivity) getActivity()).updateUI(listModel);
+                }
             }
         });
         recyclerView.setAdapter(adapter);
